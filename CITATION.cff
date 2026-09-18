@@ -4,7 +4,7 @@ title: "red-eye-triage: deep learning and citation-constrained LLM guidance for 
 version: 1.0.0
 date-released: 2026-09-17
 license: MIT
-repository-code: "https://github.com/<your-github-username>/red-eye-triage"
+repository-code: "https://github.com/kadenbunch/red-eye-triage"
 authors:
   - family-names: Bunch
     given-names: Kaden
