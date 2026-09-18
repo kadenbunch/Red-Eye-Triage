@@ -134,7 +134,7 @@ Trained checkpoints (`<model>_heldout_refit.pth`) are attached to the [GitHub Re
 
 ## Use of generative AI
 
-Gemini (`gemini-3.5-flash`, Google) is a component of the method (step 5). Every generation is logged with the model name and timestamp. [Describe any generative-AI assistance used in writing or refactoring this code, with tool name, version and date, consistent with the manuscript's disclosure.]
+Gemini (`gemini-3.5-flash`, Google) is a component of the method (step 5). Every generation is logged with the model name and timestamp.
 
 ## Citation
 
