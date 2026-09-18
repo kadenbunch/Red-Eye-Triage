@@ -1,0 +1,4 @@
+model,pretrained_weights,total_parameters,trainable_parameters,input_resolution,output_classes,epochs,batch_size,optimizer,learning_rate,loss,augmentation,seed,cv_folds
+efficientnet,EfficientNet_B0_Weights.IMAGENET1K_V1,4012672,4012672,224x224,4,15,32,Adam,0.0001,class-weighted CE,hflip+rot15+colorjitter,42,5
+mobilenet,MobileNet_V2_Weights.IMAGENET1K_V1,2228996,2228996,224x224,4,15,32,Adam,0.0001,class-weighted CE,hflip+rot15+colorjitter,42,5
+resnet18,ResNet18_Weights.IMAGENET1K_V1,11178564,11178564,224x224,4,15,32,Adam,0.0001,class-weighted CE,hflip+rot15+colorjitter,42,5

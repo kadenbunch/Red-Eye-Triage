@@ -1,0 +1,20 @@
+# Python >= 3.10 (analyses were run on Google Colab, Python 3.12, NVIDIA GPU runtime).
+# Versions for grad-cam, captum, faiss-cpu, imagehash, numpy, pillow and scipy are those
+# recorded in the Colab run. Replace this file with the output of
+#   pip freeze > requirements-lock.txt
+# from the Colab session (notebook step 6) to pin every package exactly.
+torch>=2.2
+torchvision>=0.17
+numpy==2.0.2
+scipy==1.16.3
+pandas>=2.0
+scikit-learn>=1.3
+opencv-python-headless>=4.8
+pillow==11.3.0
+matplotlib>=3.8
+imagehash==4.3.2
+grad-cam==1.5.5
+captum==0.9.0
+faiss-cpu==1.14.3
+google-genai>=1.0
+pytest>=8.0

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article."
+title: "red-eye-triage: deep learning and citation-constrained LLM guidance for red-eye triage"
+version: 1.0.0
+date-released: 2026-09-17
+license: MIT
+repository-code: "https://github.com/<your-github-username>/red-eye-triage"
+authors:
+  - family-names: Bunch
+    given-names: Kaden
+    affiliation: "[Institution]"
+  - family-names: "[Co-author family name]"
+    given-names: "[Co-author given names]"
+preferred-citation:
+  type: article
+  title: "Integrating Deep Learning and Large Language Models for Community-Based Triage of Red Eye Diseases"
+  journal: "Translational Vision Science & Technology"
+  year: 2026
+  status: submitted
+  authors:
+    - family-names: Bunch
+      given-names: Kaden
+    - family-names: "[Co-author family name]"
+      given-names: "[Co-author given names]"

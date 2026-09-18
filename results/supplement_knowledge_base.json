@@ -1,0 +1,103 @@
+[
+  {
+    "id": "CONJ-01",
+    "class": "Inflammatory",
+    "statement": "Most acute infectious conjunctivitis is self-limiting; watery discharge and preauricular node suggest viral etiology.",
+    "citation": "AAO PPP Conjunctivitis [author to verify section/year]",
+    "tags": [
+      "etiology",
+      "features"
+    ]
+  },
+  {
+    "id": "CONJ-RED-01",
+    "class": "Inflammatory",
+    "statement": "Severe pain, photophobia, or reduced vision are NOT typical of simple conjunctivitis and warrant urgent evaluation for keratitis, uveitis, or angle-closure.",
+    "citation": "AAO PPP Conjunctivitis \u2014 red flags [author to verify]",
+    "tags": [
+      "red_flag",
+      "urgency"
+    ]
+  },
+  {
+    "id": "UVE-01",
+    "class": "Inflammatory",
+    "statement": "Anterior uveitis presents with pain, photophobia, and circumlimbal (ciliary) injection; it requires prompt ophthalmologic evaluation and is sight-threatening if untreated.",
+    "citation": "AAO PPP Uveitis [author to verify section/year]",
+    "tags": [
+      "etiology",
+      "features",
+      "urgency"
+    ]
+  },
+  {
+    "id": "UVE-RED-01",
+    "class": "Inflammatory",
+    "statement": "Vision loss, hypopyon, or markedly elevated IOP with uveitis indicate an emergent, sight-threatening presentation.",
+    "citation": "AAO PPP Uveitis \u2014 red flags [author to verify]",
+    "tags": [
+      "red_flag",
+      "urgency"
+    ]
+  },
+  {
+    "id": "LID-01",
+    "class": "Eyelid",
+    "statement": "Common eyelid conditions (e.g., hordeolum, chalazion, blepharitis) are usually managed conservatively with warm compresses and lid hygiene.",
+    "citation": "AAO PPP Blepharitis [author to verify section/year]",
+    "tags": [
+      "etiology",
+      "management"
+    ]
+  },
+  {
+    "id": "LID-RED-01",
+    "class": "Eyelid",
+    "statement": "Rapidly progressive lid swelling with fever, proptosis, pain on eye movement, or restricted motility suggests orbital cellulitis \u2014 an emergency.",
+    "citation": "AAO guidance on orbital cellulitis [author to verify]",
+    "tags": [
+      "red_flag",
+      "urgency"
+    ]
+  },
+  {
+    "id": "NORM-01",
+    "class": "Normal",
+    "statement": "A normal-appearing external eye does not exclude posterior segment or neuro-ophthalmic pathology if symptoms persist.",
+    "citation": "General ophthalmology guidance [author to verify]",
+    "tags": [
+      "features",
+      "safety_netting"
+    ]
+  },
+  {
+    "id": "HEM-01",
+    "class": "Hemorrhage",
+    "statement": "Isolated subconjunctival hemorrhage is typically benign and self-limiting in the absence of trauma or bleeding disorder.",
+    "citation": "[author to write and verify \u2014 e.g., AAO subconjunctival hemorrhage guidance]",
+    "tags": [
+      "etiology",
+      "features"
+    ]
+  },
+  {
+    "id": "HEM-RED-01",
+    "class": "Hemorrhage",
+    "statement": "Hemorrhage with pain, vision change, history of trauma, or anticoagulation warrants urgent evaluation to exclude globe rupture or other serious injury.",
+    "citation": "[author to write and verify]",
+    "tags": [
+      "red_flag",
+      "urgency"
+    ]
+  },
+  {
+    "id": "GEN-RED-01",
+    "class": "ALL",
+    "statement": "Any acute vision loss, new floaters/flashes, diplopia, or severe pain requires urgent ophthalmology involvement regardless of external appearance.",
+    "citation": "AAO general urgent-referral guidance [author to verify]",
+    "tags": [
+      "red_flag",
+      "urgency"
+    ]
+  }
+]

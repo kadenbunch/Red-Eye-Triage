@@ -1,0 +1,451 @@
+{
+  "version": "1.0",
+  "description": "Author-curated knowledge base used to constrain LLM guidance generation (manuscript Supplementary Table S3). Each entry is paraphrased from the cited source; citations were compiled by the authors.",
+  "urgency_levels": {
+    "0": "Self-care / observation",
+    "1": "Primary care or optometry within 1 week",
+    "2": "Ophthalmology within 24-48 hours",
+    "3": "Same-day ophthalmology",
+    "4": "Immediate emergency evaluation"
+  },
+  "entries": [
+    {
+      "condition_id": "normal_eye",
+      "id_prefix": "NORM",
+      "name": "Normal Eye",
+      "class": "Normal",
+      "condition_summary": "Normal external ocular appearance without significant conjunctival injection, hemorrhage, eyelid pathology, or obvious inflammatory findings.",
+      "typical_clinical_features": [
+        "White sclera",
+        "No focal hemorrhage",
+        "No eyelid swelling",
+        "No discharge",
+        "Normal pupil appearance"
+      ],
+      "red_flags": [
+        "Vision loss",
+        "New floaters or flashes",
+        "Diplopia",
+        "Persistent pain despite normal appearance",
+        "Neurologic symptoms"
+      ],
+      "initial_management": "Reassurance if asymptomatic. Continue evaluation if symptoms are disproportionate to examination findings.",
+      "consultation_urgency": "Self-care / observation unless concerning symptoms are present.",
+      "citations": [
+        {
+          "source": "Kanski's Clinical Ophthalmology",
+          "section": "Approach to the Red Eye",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "condition_id": "viral_conjunctivitis",
+      "id_prefix": "VCONJ",
+      "name": "Viral Conjunctivitis",
+      "class": "Inflammatory",
+      "condition_summary": "Common self-limited conjunctival inflammation, most often caused by adenovirus. Highly contagious but generally not sight-threatening.",
+      "typical_clinical_features": [
+        "Diffuse conjunctival injection",
+        "Watery discharge",
+        "Foreign body sensation",
+        "Preauricular lymphadenopathy",
+        "Recent upper respiratory infection",
+        "Often starts unilateral then becomes bilateral"
+      ],
+      "red_flags": [
+        "Reduced visual acuity",
+        "Moderate-to-severe pain",
+        "Marked photophobia",
+        "Corneal opacity",
+        "Contact lens wearer with worsening symptoms"
+      ],
+      "initial_management": "Artificial tears, cool compresses, hand hygiene, avoidance of contact lenses, and supportive care.",
+      "consultation_urgency": "Routine unless red flags are present.",
+      "citations": [
+        {
+          "source": "AAO Preferred Practice Pattern: Conjunctivitis",
+          "section": "Clinical Features and Management",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "condition_id": "bacterial_conjunctivitis",
+      "id_prefix": "BCONJ",
+      "name": "Bacterial Conjunctivitis",
+      "class": "Inflammatory",
+      "condition_summary": "Acute conjunctival infection characterized by mucopurulent discharge and conjunctival redness.",
+      "typical_clinical_features": [
+        "Diffuse conjunctival injection",
+        "Purulent or mucopurulent discharge",
+        "Eyelids stuck shut on awakening",
+        "Mild irritation",
+        "Usually preserved vision"
+      ],
+      "red_flags": [
+        "Contact lens use",
+        "Corneal opacity",
+        "Photophobia",
+        "Vision loss",
+        "Severe pain"
+      ],
+      "initial_management": "Topical antibiotic therapy may be considered depending on severity and patient factors; maintain hygiene and avoid contact lenses.",
+      "consultation_urgency": "Routine unless corneal involvement or red flags are present.",
+      "citations": [
+        {
+          "source": "AAO Preferred Practice Pattern: Conjunctivitis",
+          "section": "Bacterial Conjunctivitis",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "condition_id": "allergic_conjunctivitis",
+      "id_prefix": "ACONJ",
+      "name": "Allergic Conjunctivitis",
+      "class": "Inflammatory",
+      "condition_summary": "IgE-mediated conjunctival inflammation associated with environmental allergens.",
+      "typical_clinical_features": [
+        "Bilateral redness",
+        "Intense itching",
+        "Watery discharge",
+        "Chemosis",
+        "Associated allergic symptoms"
+      ],
+      "red_flags": [
+        "Vision loss",
+        "Significant pain",
+        "Marked photophobia",
+        "Corneal involvement"
+      ],
+      "initial_management": "Allergen avoidance, lubricating drops, antihistamine drops, and cool compresses.",
+      "consultation_urgency": "Self-care or routine outpatient follow-up.",
+      "citations": [
+        {
+          "source": "AAO Preferred Practice Pattern: Conjunctivitis",
+          "section": "Allergic Conjunctivitis",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "condition_id": "episcleritis",
+      "id_prefix": "EPIS",
+      "name": "Episcleritis",
+      "class": "Inflammatory",
+      "condition_summary": "Benign inflammation of the episcleral tissue that is typically self-limited and non-sight-threatening.",
+      "typical_clinical_features": [
+        "Sectoral redness",
+        "Mild discomfort",
+        "Minimal tenderness",
+        "Normal vision",
+        "Little or no photophobia"
+      ],
+      "red_flags": [
+        "Severe pain",
+        "Photophobia",
+        "Vision changes",
+        "Diffuse deep redness"
+      ],
+      "initial_management": "Artificial tears and supportive care; evaluate for underlying systemic disease if recurrent.",
+      "consultation_urgency": "Ophthalmology within 24–48 hours if diagnosis is uncertain.",
+      "citations": [
+        {
+          "source": "AAO Basic and Clinical Science Course",
+          "section": "Episcleritis and Scleritis",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "condition_id": "scleritis",
+      "id_prefix": "SCLER",
+      "name": "Scleritis",
+      "class": "Inflammatory",
+      "condition_summary": "Deep scleral inflammation frequently associated with autoimmune disease and potentially vision-threatening.",
+      "typical_clinical_features": [
+        "Severe boring eye pain",
+        "Pain radiating to face or jaw",
+        "Deep violaceous redness",
+        "Pain with eye movement",
+        "Possible decreased vision"
+      ],
+      "red_flags": [
+        "Any suspected scleritis",
+        "Vision loss",
+        "Necrotizing changes",
+        "Severe persistent pain"
+      ],
+      "initial_management": "Urgent ophthalmology evaluation and systemic workup.",
+      "consultation_urgency": "Same-day ophthalmology evaluation.",
+      "citations": [
+        {
+          "source": "AAO Basic and Clinical Science Course",
+          "section": "Scleritis",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "condition_id": "anterior_uveitis",
+      "id_prefix": "UVE",
+      "name": "Anterior Uveitis",
+      "class": "Inflammatory",
+      "condition_summary": "Inflammation of the iris and ciliary body that may be associated with autoimmune disease and can threaten vision if untreated.",
+      "typical_clinical_features": [
+        "Painful red eye",
+        "Photophobia",
+        "Circumlimbal (ciliary) flush",
+        "Blurred vision",
+        "Consensual photophobia"
+      ],
+      "red_flags": [
+        "Vision loss",
+        "Hypopyon",
+        "Elevated intraocular pressure",
+        "Severe bilateral disease"
+      ],
+      "initial_management": "Urgent ophthalmology assessment. Avoid empiric corticosteroids unless directed by ophthalmology.",
+      "consultation_urgency": "Same-day ophthalmology evaluation.",
+      "citations": [
+        {
+          "source": "AAO Preferred Practice Pattern: Uveitis",
+          "section": "Anterior Uveitis",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "condition_id": "subconjunctival_hemorrhage",
+      "id_prefix": "SCH",
+      "name": "Subconjunctival Hemorrhage",
+      "class": "Hemorrhage",
+      "condition_summary": "Bleeding beneath the bulbar conjunctiva producing a sharply demarcated red patch. Usually benign and self-resolving.",
+      "typical_clinical_features": [
+        "Bright red scleral patch",
+        "No discharge",
+        "No photophobia",
+        "Minimal discomfort",
+        "Normal vision"
+      ],
+      "red_flags": [
+        "Trauma",
+        "Vision changes",
+        "Pain",
+        "Recurrent hemorrhage",
+        "Known bleeding disorder"
+      ],
+      "initial_management": "Observation and reassurance. Artificial tears if irritation is present.",
+      "consultation_urgency": "Routine unless red flags are present.",
+      "citations": [
+        {
+          "source": "AAO Eye Health",
+          "section": "Subconjunctival Hemorrhage",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "condition_id": "hordeolum",
+      "id_prefix": "HORD",
+      "name": "Hordeolum (Stye)",
+      "class": "Eyelid",
+      "condition_summary": "Acute bacterial infection of an eyelid gland resulting in a localized tender eyelid nodule.",
+      "typical_clinical_features": [
+        "Localized eyelid swelling",
+        "Tender erythematous nodule",
+        "Pain at eyelid margin",
+        "Small pustule near eyelashes"
+      ],
+      "red_flags": [
+        "Fever",
+        "Vision changes",
+        "Pain with eye movement",
+        "Diffuse swelling",
+        "Proptosis"
+      ],
+      "initial_management": "Warm compresses several times daily and eyelid hygiene.",
+      "consultation_urgency": "Routine unless cellulitis is suspected.",
+      "citations": [
+        {
+          "source": "AAO Preferred Practice Pattern: Blepharitis",
+          "section": "Hordeolum and Chalazion",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "condition_id": "chalazion",
+      "id_prefix": "CHAL",
+      "name": "Chalazion",
+      "class": "Eyelid",
+      "condition_summary": "Chronic granulomatous inflammation of a meibomian gland causing a painless eyelid lump.",
+      "typical_clinical_features": [
+        "Painless eyelid nodule",
+        "Slow enlargement",
+        "Minimal erythema",
+        "Localized swelling"
+      ],
+      "red_flags": [
+        "Recurrent lesion",
+        "Atypical appearance",
+        "Vision obstruction",
+        "Rapid growth"
+      ],
+      "initial_management": "Warm compresses and observation.",
+      "consultation_urgency": "Routine ophthalmology referral if persistent.",
+      "citations": [
+        {
+          "source": "AAO Preferred Practice Pattern: Blepharitis",
+          "section": "Chalazion",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "condition_id": "blepharitis",
+      "id_prefix": "BLEPH",
+      "name": "Blepharitis",
+      "class": "Eyelid",
+      "condition_summary": "Chronic inflammation of the eyelid margins commonly associated with meibomian gland dysfunction.",
+      "typical_clinical_features": [
+        "Crusting at eyelid margins",
+        "Burning sensation",
+        "Itching",
+        "Foreign body sensation",
+        "Bilateral involvement"
+      ],
+      "red_flags": [
+        "Corneal involvement",
+        "Vision changes",
+        "Severe pain"
+      ],
+      "initial_management": "Lid hygiene, warm compresses, and artificial tears.",
+      "consultation_urgency": "Routine follow-up.",
+      "citations": [
+        {
+          "source": "AAO Preferred Practice Pattern: Blepharitis",
+          "section": "Management",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "condition_id": "preseptal_cellulitis",
+      "id_prefix": "PRESEP",
+      "name": "Preseptal Cellulitis",
+      "class": "Eyelid",
+      "condition_summary": "Infection of tissues anterior to the orbital septum causing eyelid erythema and swelling without orbital involvement.",
+      "typical_clinical_features": [
+        "Eyelid swelling",
+        "Eyelid erythema",
+        "Normal vision",
+        "No proptosis",
+        "Normal eye movements"
+      ],
+      "red_flags": [
+        "Pain with eye movement",
+        "Proptosis",
+        "Restricted motility",
+        "Vision changes"
+      ],
+      "initial_management": "Antibiotic therapy and close follow-up.",
+      "consultation_urgency": "Same-day medical evaluation.",
+      "citations": [
+        {
+          "source": "AAO Orbital Cellulitis Guidance",
+          "section": "Preseptal Cellulitis",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "condition_id": "orbital_cellulitis",
+      "id_prefix": "ORBIT",
+      "name": "Orbital Cellulitis",
+      "class": "Eyelid",
+      "condition_summary": "Infection involving tissues posterior to the orbital septum. Vision- and life-threatening emergency.",
+      "typical_clinical_features": [
+        "Marked eyelid swelling",
+        "Pain with eye movement",
+        "Restricted extraocular movements",
+        "Proptosis",
+        "Fever"
+      ],
+      "red_flags": [
+        "Reduced vision",
+        "Relative afferent pupillary defect",
+        "Ophthalmoplegia",
+        "Proptosis"
+      ],
+      "initial_management": "Emergency referral for imaging, intravenous antibiotics, and ophthalmology consultation.",
+      "consultation_urgency": "Immediate emergency evaluation.",
+      "citations": [
+        {
+          "source": "AAO Orbital Cellulitis Guidance",
+          "section": "Clinical Presentation",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "condition_id": "infectious_keratitis",
+      "id_prefix": "KERAT",
+      "name": "Infectious Keratitis / Corneal Ulcer",
+      "class": "Inflammatory",
+      "condition_summary": "Corneal infection that can rapidly threaten vision and requires urgent ophthalmologic evaluation.",
+      "typical_clinical_features": [
+        "Severe pain",
+        "Photophobia",
+        "Reduced vision",
+        "Corneal opacity or infiltrate",
+        "Contact lens use"
+      ],
+      "red_flags": [
+        "Any suspected corneal ulcer",
+        "Rapid vision decline",
+        "Central corneal involvement",
+        "Hypopyon"
+      ],
+      "initial_management": "Immediate ophthalmology referral and discontinuation of contact lens use.",
+      "consultation_urgency": "Same-day ophthalmology evaluation.",
+      "citations": [
+        {
+          "source": "AAO Preferred Practice Pattern: Bacterial Keratitis",
+          "section": "Clinical Presentation",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "condition_id": "acute_angle_closure_glaucoma",
+      "id_prefix": "AACG",
+      "name": "Acute Angle-Closure Glaucoma",
+      "class": "Inflammatory",
+      "condition_summary": "Acute obstruction of aqueous outflow causing rapid elevation of intraocular pressure and vision-threatening injury.",
+      "typical_clinical_features": [
+        "Severe eye pain",
+        "Headache",
+        "Nausea or vomiting",
+        "Blurred vision",
+        "Halos around lights",
+        "Mid-dilated pupil"
+      ],
+      "red_flags": [
+        "Any suspected acute angle closure",
+        "Rapid vision loss",
+        "Severe pain with nausea/vomiting"
+      ],
+      "initial_management": "Immediate emergency ophthalmology assessment and intraocular pressure reduction.",
+      "consultation_urgency": "Immediate emergency evaluation.",
+      "citations": [
+        {
+          "source": "AAO Preferred Practice Pattern: Primary Angle Closure Disease",
+          "section": "Acute Angle Closure",
+          "year": "2024"
+        }
+      ]
+    }
+  ]
+}
