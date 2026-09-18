@@ -8,9 +8,21 @@ repository-code: "https://github.com/<your-github-username>/red-eye-triage"
 authors:
   - family-names: Bunch
     given-names: Kaden
-    affiliation: "[Institution]"
-  - family-names: "[Co-author family name]"
-    given-names: "[Co-author given names]"
+    email: kaden_bunch@brown.edu
+    affiliation: "Warren Alpert Medical School of Brown University, Providence, RI, USA"
+  - family-names: Chou
+    given-names: Zishuai
+    affiliation: "Warren Alpert Medical School of Brown University, Providence, RI, USA"
+  - family-names: Barton
+    given-names: Andrew
+    affiliation: "Division of Ophthalmology, Warren Alpert Medical School of Brown University, Providence, RI, USA"
+  - family-names: Bi
+    given-names: Lulu
+    affiliation: "Warren Alpert Medical School of Brown University, Providence, RI, USA"
+  - family-names: Janigian
+    given-names: Robert
+    name-suffix: Jr.
+    affiliation: "Division of Ophthalmology, Warren Alpert Medical School of Brown University, Providence, RI, USA"
 preferred-citation:
   type: article
   title: "Integrating Deep Learning and Large Language Models for Community-Based Triage of Red Eye Diseases"
@@ -20,5 +32,17 @@ preferred-citation:
   authors:
     - family-names: Bunch
       given-names: Kaden
-    - family-names: "[Co-author family name]"
-      given-names: "[Co-author given names]"
+      affiliation: "Warren Alpert Medical School of Brown University, Providence, RI, USA"
+    - family-names: Chou
+      given-names: Zishuai
+      affiliation: "Warren Alpert Medical School of Brown University, Providence, RI, USA"
+    - family-names: Barton
+      given-names: Andrew
+      affiliation: "Division of Ophthalmology, Warren Alpert Medical School of Brown University, Providence, RI, USA"
+    - family-names: Bi
+      given-names: Lulu
+      affiliation: "Warren Alpert Medical School of Brown University, Providence, RI, USA"
+    - family-names: Janigian
+      given-names: Robert
+      name-suffix: Jr.
+      affiliation: "Division of Ophthalmology, Warren Alpert Medical School of Brown University, Providence, RI, USA"
