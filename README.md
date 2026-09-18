@@ -3,7 +3,7 @@
 Code accompanying the manuscript
 
 > **Integrating Deep Learning and Large Language Models for Community-Based Triage of Red Eye Diseases.**
-> [Author list]. *Translational Vision Science & Technology* (submitted, 2026).
+> *Translational Vision Science & Technology* (submitted, 2026).
 
 The pipeline (1) fine-tunes three ImageNet-pretrained convolutional networks (EfficientNet-B0, MobileNet-V2, ResNet-18) to classify external eye photographs into four categories (Inflammatory, Eyelid, Normal, Hemorrhage); (2) evaluates them with stratified 5-fold cross-validation, bootstrap 95% confidence intervals, clinically motivated operating points and calibration, plus a single held-out test evaluation; (3) explains predictions with Grad-CAM++, Integrated Gradients and nearest-neighbour retrieval; and (4) passes the predicted class to Gemini, which is constrained to an author-curated, cited knowledge base and audited automatically for unsupported statements.
 
@@ -46,7 +46,7 @@ red-eye-triage/
 ## Installation
 
 ```bash
-git clone https://github.com/<your-github-username>/red-eye-triage.git
+git clone https://github.com/kadenbunch/red-eye-triage.git
 cd red-eye-triage
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -56,7 +56,7 @@ A CUDA-capable GPU is strongly recommended for training. The reported analyses w
 
 ## Data
 
-The images are **not** redistributed in this repository by default. Follow [`data/README.md`](data/README.md) to obtain the source dataset and reproduce the curated four-class set. The code expects:
+The curated images are redistributed in this repository. Follow [`data/README.md`](data/README.md) to obtain the complete source dataset and reproduce the curated four-class set. The code expects:
 
 ```
 data/images/
