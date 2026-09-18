@@ -146,4 +146,4 @@ Code: MIT (see [`LICENSE`](LICENSE)). The source images are not covered by this 
 
 ## Contact
 
-[Corresponding author name, email]
+[Kaden Bunch, kaden_bunch@brown.edu]
